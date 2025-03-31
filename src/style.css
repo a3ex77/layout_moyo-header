@@ -1,5 +1,5 @@
 html {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
 }
@@ -13,8 +13,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 60px;
-  line-height: 60px;
   text-transform: uppercase;
   padding-right: 50px;
   padding-left: 50px;
@@ -53,6 +51,8 @@ body {
 }
 
 .nav__link {
+  height: 60px;
+  line-height: 60px;
   display: block;
   text-decoration: none;
   color: #000;
